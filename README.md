@@ -1,36 +1,118 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Axentra
+
+A modern, interactive website for Axentra - a company transforming the global automotive and mobility ecosystem through innovative software solutions, educational programs, and green energy initiatives.
+
+## About Axentra
+
+Axentra envisions a future where cutting-edge technology and sustainability drive transformation in the automotive and mobility industry. The company focuses on:
+
+- **Innovative Software Solutions** - Cutting-edge technology for mobility and automotive sectors
+- **Educational Programs** - Inspiring the next generation of creators
+- **Green Energy Initiatives** - Accelerating sustainable mobility adoption
+- **Wearables Division** - Lifestyle-focused and performance-driven wearable products
+
+## Project Overview
+
+This is a [Next.js](https://nextjs.org) website built with [Bun](https://bun.sh) as the JavaScript runtime and package manager, featuring modern technologies to showcase Axentra's vision and services.
+
+### Key Features
+
+- **Responsive Design** - Mobile-first approach with Tailwind CSS
+- **Smooth Animations** - Motion animations for enhanced user experience
+- **Interactive Components** - Engaging UI with React
+- **Performance Optimized** - Next.js App Router with automatic code splitting
+
+### Website Sections
+
+- **Hero** - Eye-catching landing section with navigation
+- **About** - Axentra's mission and vision
+- **Services** - Core service offerings
+- **Wearables** - Dedicated wearables product division
+- **Innovation** - Innovation initiatives and achievements
+- **Stats** - Key metrics and achievements
+- **Contact** - Get in touch with Axentra
+
+## Tech Stack
+
+- **Runtime & Package Manager** - [Bun](https://bun.sh)
+- **Framework** - [Next.js 16.2.6](https://nextjs.org)
+- **UI Library** - [React 19.2.4](https://react.dev)
+- **Styling** - [Tailwind CSS 4](https://tailwindcss.com)
+- **Animations** - [Motion](https://motion.dev) for smooth transitions
+- **Counters** - [react-countup](https://react-countup.js.org) for animated statistics
+- **Language** - [TypeScript 5](https://www.typescriptlang.org)
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+[Bun](https://bun.sh) (22.0.0 or higher recommended)
+
+### Installation
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+bun install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Development Server
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Run the development server:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+bun run dev
+```
 
-## Learn More
+Open [http://localhost:3000](http://localhost:3000) to view the website in your browser. The page auto-updates as you edit files.
 
-To learn more about Next.js, take a look at the following resources:
+### Build & Production
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Build for production:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+bun run build
+```
 
-## Deploy on Vercel
+Start the production server:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+bun start
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Linting
+
+Run ESLint to check code quality:
+
+```bash
+bunbash
+npm run lint
+```
+
+## Project Structure
+
+```
+├── app/                 # Next.js App Router
+│   ├── layout.tsx      # Root layout
+│   ├── page.tsx        # Home page
+│   └── globals.css     # Global styles
+├── components/          # Reusable components
+│   ├── Hero.tsx
+│   ├── About.tsx
+│   ├── Services.tsx
+│   ├── Wearables.tsx
+│   ├── Innovation.tsx
+│   ├── Stats.tsx
+│   ├── Contact.tsx
+│   └── StatsCard.tsx
+├── public/             # Static assets
+├── next.config.ts      # Next.js configuration
+├── tailwind.config.ts  # Tailwind CSS configuration
+└── tsconfig.json       # TypeScript configuration
+```
+
+## Development Notes
+
+- The site uses Cormorant Garamond font from Google Fonts for typography
+- Images are optimized with Next.js Image component
+- Scroll-based navigation updates with backdrop blur effects
+- Sections use full-screen height (h-screen) with grid layouts for responsive design
+
+
