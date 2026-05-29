@@ -117,4 +117,4 @@ npm run lint
 
 ## Live Url
 
-- [https:](https://axentra-sigma.vercel.app/)
+- [Axentra](https://axentra-sigma.vercel.app/)
