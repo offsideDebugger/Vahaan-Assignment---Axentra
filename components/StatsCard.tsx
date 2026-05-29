@@ -25,7 +25,7 @@ export default function StatCard({
       transition={{ duration: 0.5 }}
       className="group rounded-3xl border border-zinc-200 bg-white p-8 shadow-sm hover:shadow-xl"
     >
-      <h2 className="text-5xl font-bold tracking-tight">
+      <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
         <CountUp
           end={end}
           duration={2}

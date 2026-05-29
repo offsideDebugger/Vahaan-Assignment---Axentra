@@ -7,20 +7,20 @@ const cormorantGaramond = Cormorant_Garamond({
   });
   
 export default function Contact(){
-    return <div id="contact" className="h-screen scroll-mt-auto grid grid-cols-2 w-full items-center justify-center">
+    return <div id="contact" className="min-h-screen scroll-mt-auto grid grid-cols-1 md:grid-cols-2 w-full items-center justify-center">
         <div className={`flex flex-col ${cormorantGaramond.className} justify-center p-8`}>
-            <h1 className="text-8xl ml-20 text-neutral-900">
+            <h1 className="text-6xl md:text-8xl md:ml-20 ml-4 text-neutral-900">
                 Get in touch
             </h1>
-            <p className="text-3xl ml-20 max-w-xl mt-6 text-neutral-700">
+            <p className="text-lg md:text-3xl md:ml-20 ml-4 max-w-xl mt-6 text-neutral-700">
             Building meaningful partnerships through innovation, quality, and trust. Get in touch with our team to explore tailored solutions designed to meet the challenges of today and the opportunities of tomorrow.
 
             </p>
         </div>
         <div className={`flex flex-col bg-white w-full h-full ${cormorantGaramond.className} justify-center p-8`}>
-            <div className={`flex flex-col w-full h-full justify-center p-12 ${cormorantGaramond.className}`}>
+            <div className={`flex flex-col w-full h-full justify-center p-8 ${cormorantGaramond.className}`}>
                 <form className="mx-auto w-full max-w-2xl space-y-5">
-                    <div className="grid grid-cols-2 gap-5">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                     <div>
                         <label className="mb-2 block text-lg text-black">
                         First name

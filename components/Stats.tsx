@@ -1,7 +1,7 @@
 import StatCard from "./StatsCard"
 export default function Stats(){
-    return <div id="stats" className="h-[300px] p-20 scroll-mt-auto">
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+  return <div id="stats" className="py-12 sm:py-16 md:py-20 px-6 md:p-20 scroll-mt-auto">
+    <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
     <StatCard
       end={250}
       label="Global Clients"
