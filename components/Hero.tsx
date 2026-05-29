@@ -23,7 +23,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className={`h-screen flex flex-col items-center bg-[url('/cari.jpg')] bg-cover relative overflow-hidden bg-center ${cormorantGaramond.className}`}>
+    <div className={`h-screen flex flex-col w-screen items-center bg-[url('/cari.jpg')] bg-cover relative overflow-hidden bg-center ${cormorantGaramond.className}`}>
      <div className="absolute inset-0 bg-black/10" />
       <div className={`flex items-center justify-around w-full fixed top-0  left-0 z-50 p-4 text-black tracking-tight ${
         scrolled

@@ -115,4 +115,6 @@ npm run lint
 - Scroll-based navigation updates with backdrop blur effects
 - Sections use full-screen height (h-screen) with grid layouts for responsive design
 
+## Live Url
 
+- [https:](https://axentra-sigma.vercel.app/)
